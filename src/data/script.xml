@@ -1,0 +1,13 @@
+<Script Version="0.1">
+	<Scene Background="courtroom.png" ID="470" Name="Testbed" Time="10:53 AM">
+		<Root>
+			<Action Type="AddCharacter" Character="Max"
+				Sprite="phoenix.png" X="280" Y="100">
+			</Action>
+			<Line Speaker="Phoenix" Body="Your Honor, this is a test of spoken things which are so long that they extend over more than one line of text."></Line>
+			<Action Type="AnimateCharacter" Character="Max" Parameter="X" Target="600" Duration="2"></Action>
+			<Action Type="AnimateCharacter" Character="Max"
+				Parameter="Y" Target="100" Duration="2">
+			</Action>
+			<Line Speaker="Max" Body="X animation works!"></Line></Root></Scene>
+</Script>
